@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    background-image: url("grad.jpeg");
+    background-size: cover;
+      
+    height: 100vh;
+    margin: 0;
+}
+ 
+#signup-container {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.765);
+
+    margin: auto;
+}
+
+h2 {
+    color: white;
+    background-color: #007BFF;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top:px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"],
+input[type="Username"]
+{
+    width: 98%;
+    padding:5px;
+    padding-left: 0px;
+   background-color: white;
+   height: 20px;
+    border: black 1px solid;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+#div1{
+    padding-right: 20px;
+}
+#signup-container{
+    height: 580px;
+    width: 420px;
+}
+
+#signup-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+#country{
+    border: 2px solid #6f6f6f;
+    border-radius: 3px;
+}
+#birthdate{
+    border: 2px solid #6f6f6f;
+    border-radius: 3px;
+}
+#male{ border: 2px solid #6f6f6f;
+    border-radius: 3px;
+}
+#female{ border: 2px solid #6f6f6f;
+    border-radius: 3px;
+}
+#other{ border: 2px solid #6f6f6f;
+    border-radius: 3px;
+}

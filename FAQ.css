@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: black;
+}
+
+
+nav{
+    margin: 0px 30px 50px 80px;
+    padding-top: 50px;
+    display: flex;
+    background-color: #000000;
+    
+}
+
+.logo{
+    position: relative;
+    bottom: 30px;
+}
+
+
+#space{
+    width: 30%;
+}
+.navselections{
+    margin-right: 50px ;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#select:hover{
+    font-size: larger;
+    transition-duration: 0.5s;
+    
+}
+#download{
+    background-color: rgb(255, 255, 255);
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 18px 10px 6px 10px;
+    position: relative;
+    bottom: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+}
+
+.wrapper{
+    max-width: 75%;
+    margin: auto;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+.wrapper >p,
+.wrapper >h1{
+   margin: 1.5rem 0;
+    text-align: center;
+
+}
+.wrapper>h1{
+    letter-spacing: 3px;
+}
+.accordion{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size:1.2rem;
+    width:100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline:none;
+    transition:0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 20px 20px 0 0;
+
+
+}
+.accordion i{
+    font-size: 1.6rem;
+}
+.active,
+.accordion:hover{
+    background-color: #f1f7f5;
+}
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    overflow:hidden;
+    background-color: #f1f7f5;
+    border-radius: 0 0 20px 20px;
+    padding: 0 2rem 2.5rem 2 rem;
+
+}
+.panel p{
+    color:rgba(0, 0, 0, 0.7) ;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.faq{
+    border:1px solid rgba(0, 0, 0, 0.1);
+    margin:10px 0;
+
+}
+.faq:active{
+    border: none;
+}
+#id{
+    font-weight: bolder;
+}
